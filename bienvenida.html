@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/bienvenida.css">
+    <title>Bienvenida</title>
+   
+</head>
+
+
+<body>
+    <div class="welcome-container">
+        <h1>¡Bienvenido!</h1>
+        <p>Has iniciado sesión correctamente.</p>
+    </div>
+
+    <!-- Incluye jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Tiempo en milisegundos antes de redirigir (por ejemplo, 5000 ms = 5 segundos)
+            setTimeout(function() {
+                window.location.href = 'index.html'; // Redirige a la página de login
+            }, 3000); // Cambia este valor según tus necesidades
+        });
+    </script>
+</body>
+</html>
