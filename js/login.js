@@ -16,7 +16,7 @@ $(document).ready(function() {
         } else if (username === correctUserName && password === correctPassword) {
             $('#error-message').hide(); 
             // Redirigir a la pagina de bienvenida
-            window.location.href = 'bienvenida.html';
+            window.location.href = 'bienvenida.php';
         } else {
             $('#error-message').text('El usuario o la contraseña son incorrectos.').show(); //  mensaje de error
         }
